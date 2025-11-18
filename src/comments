@@ -1,11 +1,1 @@
-span.addEventListener("click", (event) => {
-  if (event.target.style.textDecoration === "line-through") {
-    event.target.style.textDecoration = "none";
-  } else {
-    event.target.style.textDecoration = "line-through";
-  }
-});
-//remove
-check.addEventListener("click", () => {
-  li.remove();
-});
+
