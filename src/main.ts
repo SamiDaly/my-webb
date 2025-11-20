@@ -8,7 +8,7 @@ const turnCard = () => {
   cards.forEach((card) => {
     card.addEventListener("click", () => {
       if (card.style.backgroundColor === "green") {
-        card.style.backgroundColor = ""; // återgår till ursprungsfärg
+        card.style.backgroundColor = "";
       } else {
         card.style.backgroundColor = "green";
       }
@@ -16,4 +16,3 @@ const turnCard = () => {
   });
 };
 turnCard();
-console.log("test log in features-turncard");
