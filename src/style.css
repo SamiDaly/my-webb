@@ -70,6 +70,10 @@ a {
   text-align: center;
 }
 
+.card:hover {
+  /*transform: rotateY(180deg);*/
+}
+
 footer {
   display: flex;
   justify-content: center;
