@@ -1,15 +1,13 @@
 export function flippCards() {
   const pictures = document.querySelector(".pictures");
-  const cards = document.querySelectorAll(".card");
 
-  for (let i = 0; i < cards.length; i++) {
-    const card = cards[i] as HTMLElement;
+  const card = ["", "", "", "", "", "", "", ""];
 
-    card.addEventListener("click", () => {
-      card.classList.toggle("flipped");
-      if ((card.style.backgroundColor = "red")) {
-        //test
-      }
-    });
+  for (let i = 0; i < card.length; i++) {
+    const divCard = document.createElement("div");
+    const cards: string = card[i];
+    divCard.classList.add("card");
+
+    pictures?.appendChild(divCard);
   }
 }
