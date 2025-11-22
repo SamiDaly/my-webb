@@ -2,7 +2,6 @@ import { flippCards } from "./flippCards";
 import "./style.css";
 const ulList = document.getElementById("ulList");
 const pictures = document.querySelector(".pictures");
-const cards = document.querySelectorAll(".card");
 const menyContainer = document.querySelector(".menyContainer");
 
 const menuList = ["designe", "program", "UX/UI", "about"];
