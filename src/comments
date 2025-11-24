@@ -1,1 +1,14 @@
+class Person {
+  name: string;
+  eyeColor: string;
+  length: number;
 
+  constructor(name: string, eyeColor: string, length: number) {
+    this.name = name;
+    this.eyeColor = eyeColor;
+    this.length = length;
+  }
+}
+
+const sami = new Person("sami", "green", 178);
+console.log(Person);

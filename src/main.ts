@@ -1,5 +1,5 @@
 import { flippCards } from "./flippCards";
-import "./style.css";
+import "./style.scss";
 const ulList = document.getElementById("ulList");
 const pictures = document.querySelector(".pictures");
 const menyContainer = document.querySelector(".menyContainer");
