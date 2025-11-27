@@ -4,7 +4,7 @@ const ulList = document.getElementById("ulList");
 const pictures = document.querySelector(".pictures");
 const menyContainer = document.querySelector(".menyContainer");
 
-const menuList = ["designe", "program", "UX/UI", "about"];
+const menuList = ["NEW-PLAYER", "NEW-GAME", "SOUND", "PUZZLE"];
 
 for (let i = 0; i < menuList.length; i++) {
   const li = document.createElement("li");
