@@ -1,4 +1,5 @@
 import { flippCards } from "./flippCards";
+import { piecesChess } from "./piecesChess";
 import "./style.css";
 const ulList = document.getElementById("ulList");
 const pictures = document.querySelector(".pictures");
