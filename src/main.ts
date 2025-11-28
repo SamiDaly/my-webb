@@ -1,5 +1,5 @@
 import { flippCards } from "./flippCards";
-import "./style.scss";
+import "../src/Sass/style.scss";
 const ulList = document.getElementById("ulList");
 const pictures = document.querySelector(".pictures");
 const menyContainer = document.querySelector(".menyContainer");
@@ -14,4 +14,3 @@ for (let i = 0; i < menuList.length; i++) {
   li.style.fontSize = "20px";
   ulList?.appendChild(li);
 }
-flippCards();
