@@ -17,7 +17,6 @@ export function flippCards() {
 
   for (let i = 0; i < 64; i++) {
     const divCard = document.createElement("div");
-    const flippCards: string = card[i];
 
     divCard.classList.add("card");
 
