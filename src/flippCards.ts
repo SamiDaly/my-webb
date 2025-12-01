@@ -1,7 +1,13 @@
 export function flippCards() {
   const pictures = document.querySelector(".pictures");
+  const logo = document.getElementById("logo");
 
-  //const card = ["", "", "", "", "", "", "", ""];
+  const brawlLog = "/src/img/zBrawl Stars Logo 2_starr_parkk.png";
+
+  if (logo) {
+    (logo as HTMLImageElement).src = brawlLog; // TypeScript behöver typning
+  }
+
   const card = [
     { img: "./img/1024_Retina_App_Icon.png", alt: "card 1" },
     { img: "./img/8-bit_antivirus_8-bit.png", alt: "card 2" },
@@ -11,11 +17,15 @@ export function flippCards() {
     { img: "./img/arena_info_1.png", alt: "card 6" },
     { img: "./img/el_primo_default_001.png", alt: "card 7" },
     { img: "./img/poco_default_001.png", alt: "card 8" },
+    { img: "/src/img/buzz_team_pin.png", alt: "card 9" },
+    { img: "/src/img/edgar_team_pin.png", alt: "card 10" },
+    { img: "/src/img/icon_ranked_gold_card.png", alt: "card 11" },
+    { img: "/src/img/penny_scstore_gems_pin.png", alt: "card 12" },
   ];
 
   if (pictures) pictures.innerHTML = "";
 
-  for (let i = 0; i < 64; i++) {
+  for (let i = 0; i < card.length; i++) {
     const divCard = document.createElement("div");
 
     divCard.classList.add("card");

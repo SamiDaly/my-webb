@@ -1,9 +1,8 @@
 import { flippCards } from "./flippCards";
 import "../src/Sass/style.scss";
-import { piecesChess } from "./piecesChess";
-import "./style.css";
+
 const ulList = document.getElementById("ulList");
-const pictures = document.querySelector(".pictures");
+
 const menyContainer = document.querySelector(".menyContainer");
 
 const menuList = ["NEW-PLAYER", "NEW-GAME", "SOUND", "PUZZLE"];
