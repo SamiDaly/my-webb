@@ -1,3 +1,5 @@
+import { cardAnimations } from "./cardAnimation";
+
 export function flippCards() {
   const pictures = document.querySelector(".pictures");
   const logo = document.getElementById("logo");
@@ -5,7 +7,7 @@ export function flippCards() {
   const brawlLog = "/src/img/zBrawl Stars Logo 2_starr_parkk.png";
 
   if (logo) {
-    (logo as HTMLImageElement).src = brawlLog; // TypeScript behöver typning
+    (logo as HTMLImageElement).src = brawlLog;
   }
 
   const card = [
@@ -38,4 +40,4 @@ export function flippCards() {
     pictures?.appendChild(divCard);
   }
 }
-flippCards();
+cardAnimations();
