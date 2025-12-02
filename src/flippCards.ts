@@ -36,6 +36,9 @@ export function flippCards() {
     img.src = card[i].img;
     img.alt = card[i].alt;
 
+    img.style.height = "315px";
+    img.style.width = "270px";
+
     divCard.appendChild(img);
     pictures?.appendChild(divCard);
   }
